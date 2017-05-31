@@ -10,7 +10,11 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 		global.json = global.json
 	EndProjectSection
 EndProject
-Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "MovieShopXS_LeplaeKevin", "src\MovieShopXS_LeplaeKevin\MovieShopXS_LeplaeKevin.xproj", "{2A21640D-132B-45D4-891E-01C2D10A23AB}"
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "MovieShopWebAPI", "src\MovieShopXS_LeplaeKevin\MovieShopWebAPI.xproj", "{2A21640D-132B-45D4-891E-01C2D10A23AB}"
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "MovieShopXS", "src\MovieShopXS\MovieShopXS.xproj", "{4FE23167-5B12-4DB2-A96D-9A003B808264}"
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "MovieShopXSLib", "src\MovieShopXSLib\MovieShopXSLib.xproj", "{5FCA8A8C-226C-4F14-AE76-B37632D0BA42}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -22,11 +26,21 @@ Global
 		{2A21640D-132B-45D4-891E-01C2D10A23AB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2A21640D-132B-45D4-891E-01C2D10A23AB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2A21640D-132B-45D4-891E-01C2D10A23AB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4FE23167-5B12-4DB2-A96D-9A003B808264}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4FE23167-5B12-4DB2-A96D-9A003B808264}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4FE23167-5B12-4DB2-A96D-9A003B808264}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4FE23167-5B12-4DB2-A96D-9A003B808264}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5FCA8A8C-226C-4F14-AE76-B37632D0BA42}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5FCA8A8C-226C-4F14-AE76-B37632D0BA42}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5FCA8A8C-226C-4F14-AE76-B37632D0BA42}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5FCA8A8C-226C-4F14-AE76-B37632D0BA42}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{2A21640D-132B-45D4-891E-01C2D10A23AB} = {A3C5DCAD-559E-401B-93BF-FB49D23C5095}
+		{4FE23167-5B12-4DB2-A96D-9A003B808264} = {A3C5DCAD-559E-401B-93BF-FB49D23C5095}
+		{5FCA8A8C-226C-4F14-AE76-B37632D0BA42} = {A3C5DCAD-559E-401B-93BF-FB49D23C5095}
 	EndGlobalSection
 EndGlobal

@@ -1,0 +1,37 @@
+﻿@using MovieShopXSLib.ViewModels;
+@model ICollection<MovieVM>
+
+
+<table>
+    <tr>
+        <th>Title</th>
+        <th>Year</th>
+        <th>Genre</th>
+        <th>Director</th>
+        <th>Rating</th>
+    </tr>
+    @foreach (MovieVM m in Model)
+    {
+        <tr>
+            <td>
+                @m.Title
+            </td>
+            <td>
+                @m.Year
+            </td>
+            <td>
+                @m.Genre
+            </td>
+            <td>
+                @m.Director
+            </td>
+            <td>
+                @m.Stars
+            </td>
+            <td>
+                <a class="glyphicon , glyphicon-trash" href="/Movie/delete/@m.MovieId"></a>
+            </td>
+        </tr>
+    }
+</table>
+<button><a href="/Movie/Add">Add movie</a></button>
